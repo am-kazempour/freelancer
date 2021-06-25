@@ -1,0 +1,379 @@
+/*login and register1*/
+.bodylogin1{
+  background-image: url('../photo/WallpaperDog-5558068.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: Arial,Helvetica,sans-serif;
+}
+/*login and register2*/
+.background-login2{
+  background: linear-gradient(to right,#43f061,#12e7dd); height: 100vh;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.bodylogin2{
+  background: linear-gradient(to right,#43f061,#12e7dd); height: 100vh;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.bodyfreelancerprofile{
+  background-color: rgb(148, 135, 135);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.bodyEmployer{
+  background: linear-gradient(to right,#43f061,#12e7dd); height: 100vh;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.container{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left: 50%;
+}
+/* start  style form login1,2 and register1,2*/
+.styleformlogin{
+  padding: 3em;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  background:rgba(255,255,255,0.25);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  backdrop-filter:blur(6.0px);
+  border-radius: 10px;
+  border:1px solid rgba(255,255,255,0.18);
+}
+/*style h2 for login1,2 and register1,2*/
+.styleh2{
+  font-weight: bold;
+  color:#000;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/*style a for login1,2 and register1,2*/
+.style-a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+.hover-a:hover{
+  text-shadow: 2px 2px 6px #00000040
+}
+.style-a:active{
+  text-shadow: none;
+}
+/*style input login1,2 and register1,2*/
+.styleinput{
+  width: 60%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border:none;
+  border-radius: 5000px;
+  background:rgba(255,255,255,0.25);
+  box-shadow: 0 2px 10px 0 rgba(31,38,135,0.37);
+  backdrop-filter:blur(6.0px);
+  font-family: Montserrat,sans-serif;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+/* start style button singn and register in login1,2 and register1,2*/
+.stylebutton{
+  margin-top: 10px;
+  width: 150px;
+  font-size: 1rem;
+  background:#00d861;
+  color: #ffffff
+}
+.hoverbutton:hover{
+  cursor: pointer;
+}
+.backgroundbutton:active{
+  background:rgba(255,255,255,0.25);
+}
+::placeholder{
+  font-family: Montserrat,sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+.buttonfocus:focus{
+  outline: none;
+}
+/* end style button singn and register in login1,2 and register1,2*/
+
+/*style logo Empolyer and freelancer page in meno*/
+.styleavatar{
+  width: 100px;
+  height: 100px;
+  margin-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.marginfoget{
+  margin-right: 50px;
+}
+/*style footer freelancer and Employer*/
+.footer {
+  height: 100px;  
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #009688;
+}
+.styleslidbar{
+  display: none;
+}
+.style-a-slidbar{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: blue !important;
+}
+.stylecolbio{
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px;
+  box-shadow: 0 2px 10px 0 rgba(31,38,135,0.37);
+  backdrop-filter:blur(5px);
+  border-radius: 10px;
+  border:1px solid rgba(255,255,255,0.18);
+  color: white ;
+}
+.stylelogoo{
+  width: 100px;
+  height: 100px;
+}
+.colorli{
+  color: black;
+}
+.styleh2{
+  padding-top: 40px;
+  color: white ;
+  font-weight: bold;
+
+}
+.margintop{
+  margin-top: 45px;
+}
+/* start style for cv page*//* start style for cv page*//* start style for cv page*/
+.stylecolblue{
+  background-color:#004080;
+  height: 1200px;
+}
+
+.styleavatarblue{
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.styleicons{
+  color: white;
+  font-size: 24px !important;
+}
+.style-p{
+  font-size: 16px;
+  color: white;
+}
+.style-h2-blue{
+  color: white ;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 30px;
+}
+.colorp{
+  color: blue;
+}
+.style-hr{
+ width:100%;
+ text-align:left;
+ margin-left:0;
+ height: 5px;
+}
+.margin40{
+    margin-bottom: 40px;
+}
+.fontsize{
+  font-size: 60px !important;
+}
+.margintop30{
+  margin-top: 30px;
+}
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+.social-network a.icoFacebook:hover {
+  background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color:#33ccff;
+}
+.social-network a.icoInstagram:hover {
+  background-color:#007bb7;
+}
+.social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoInstagram:hover i {
+  color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-circle li a {
+  display:inline-block;
+  position:relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align:center;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+  background-color: white;
+}
+.social-circle li i {
+  margin:0;
+  line-height:50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: black;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.marginbottom10{
+margin-bottom: 10px;
+}
+.styleproggres{
+height: 40px;
+}
+.marginbot20{
+  margin-bottom: 20px;
+}
+.checked {
+  color: orange;
+}
+.heading {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.fontsize20{
+  font-size: 20px !important;
+}
+.with50{
+  width: 50px;
+}
+.margintop70{
+  margin-top: 70px;
+}
+/* end style for cv page*//* end style for cv page*//* end style for cv page*/
+/*develop by amin */
+textarea.bio{
+  width: 90%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border:none;
+  background:rgba(255,255,255,0.25);
+  box-shadow: 0 2px 10px 0 rgba(31,38,135,0.37);
+  backdrop-filter:blur(6.0px);
+  font-family: Montserrat,sans-serif;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.top{
+  width: 100%;
+  height: 12%;
+  background-color: rgb(53,65,79);
+}
+.chat-body{
+  width: 100%;
+  height: 450px;
+  background-color: rgb(21, 30, 39);
+  overflow: auto;
+}
+.chat-body::-webkit-scrollbar {
+  width: 12px;
+}
+.message{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(33,45,59);
+}
+.you-message{
+  width: max-content;
+  height:max-content;
+  color: white;
+  font-size:25px;
+  font-family: verdana;
+  margin-left: 1%;
+  border-radius: 15px;
+  background-color: rgb(34,46,58);
+}
+.message-title{
+  width: max-content;
+  height:max-content;
+  color: pink;
+  margin-left: 5%;
+  font-size: 15px;
+}
+.my-message{
+  width: max-content;
+  height: max-content;
+  color: white;
+  float: right;
+  font-size:25px;
+  font-family: verdana;
+  border-radius: 15px;
+  margin-right: 1%;
+  background-color: rgb(62,97,137);
+}
+.input-message{
+  margin-left: 3%;
+  border:none;
+  color: white;
+  background: rgb(33,45,59);
+}
+.input-message::placeholder {
+  color: rgb(107,125,145);
+  opacity: 1; 
+}
+.submit-message{
+  color: white;
+  background-color: rgb(33,45,59);
+  border: none;
+  font-size: 30px;
+  margin-top: 1%;
+}
+.chat-photo{
+  width: auto;
+  height: 75px;
+  margin-top: 1%;
+  margin-left: 10%;
+}
