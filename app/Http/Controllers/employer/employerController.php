@@ -134,27 +134,6 @@ class employerController extends Controller
         }
     }
 
-    public function test()
-    {
-        // $projests = file_get_contents("1.txt");
-        // $projests = explode("\n",$projests);
-        // for ($i=0;$i<=12;$i++)
-        // {
-        // $projests[$i] = explode(",",$projests[$i]);
-        // }
-        // foreach($projests as $projest){
-        //     $new_project = [
-        //         'owner_id'=>(int)$projest[0],
-        //         'title'=>$projest[1],
-        //         'description'=>$projest[2],
-        //         'abilitis'=>$projest[3],
-        //         'price'=>(int)$projest[4],
-        //         'file_name'=>"1.pdf",
-        //     ];
-        //     dd($new_project);
-        //     project::create($new_project);
-        //}
-    }
     public function logout()
     {
         Auth::guard('employer')->logout();
