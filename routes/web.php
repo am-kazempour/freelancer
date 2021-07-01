@@ -52,6 +52,3 @@ Route::group(['prefix' => 'chat'], function () {
     Route::get('/get',[freelancerController::class,'chat'])->name('chat.get');
     Route::post('/send',[freelancerController::class,'dochat'])->name('freelancer.chat');
 });
-    
-
-Route::get('/test',[employerController::class,'test'])->name('test');
